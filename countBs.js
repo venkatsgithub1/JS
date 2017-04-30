@@ -1,9 +1,5 @@
 function countBs (text) {
-    var count=0;
-    for (char of text)
-        if (char=='B')
-            count++;
-    return count;
+   return countChar(text,'B');
 }
 
 /*
